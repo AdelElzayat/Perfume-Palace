@@ -1,162 +1,155 @@
-/*---------------- Info-List ---------------- */
-.info-list a::before, .info-list a::after {
-    content: "";
-    width: 2px;
-    height: 0;
-    background: #D4AF37;
-    position: absolute;
-    transition: 1s;
-    margin: 0 -5px;
+.info-list a::before,
+.info-list a::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  background: #d4af37;
+  position: absolute;
+  transition: 1s;
+  margin: 0 -5px;
 }
 
 .info-list a::before {
-    left: 0;
-    bottom: 0;  
+  left: 0;
+  bottom: 0;
 }
 
 .info-list a::after {
-    right: 0;
-    top: 0;  
+  right: 0;
+  top: 0;
 }
 
-.info-list a:hover::before, .info-list a:hover::after {
-    height: 100%;
+.info-list a:hover::before,
+.info-list a:hover::after {
+  height: 100%;
 }
 
 .info-list i:hover {
-    color: #D4AF37;
-    transform: rotateY(180deg);
-    transition: 0.5s;
+  color: #d4af37;
+  transform: rotateY(180deg);
+  transition: 0.5s;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotateY(180deg);
-    }
+  0% {
+    transform: rotateY(180deg);
+  }
 
-    50% {
-        transform: rotateY(90deg);
-    }
+  50% {
+    transform: rotateY(90deg);
+  }
 
-    100% {
-        transform: rotateY(0deg);
-    }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
-/*---------------- /Info-List ---------------- */
 
-/* ---------------- Nav-List ---------------- */
 .nav-list i:hover {
-    color: #D4AF37;
-    transition: 0.3s;
+  color: #d4af37;
+  transition: 0.3s;
 }
 
 .cart:hover .noti {
-    transform: translateY(-8px);
-    transition: 0.6s;
+  transform: translateY(-8px);
+  transition: 0.6s;
 }
 
 @keyframes drop {
-    0% {
-        transform: translateY(-8px);
-    }
+  0% {
+    transform: translateY(-8px);
+  }
 
-    50% {
-        transform: translateY(-4px);
-    }
+  50% {
+    transform: translateY(-4px);
+  }
 
-    100% {
-        transform: translateY(0px);
-    }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .nav-list ul li .info:hover {
-    color: #D4AF37;
-    transition: 0.3s ease-in-out;
+  color: #d4af37;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-list ul li .info {
-    position: relative;
+  position: relative;
 }
 
 .nav-list ul li .info::after,
 .nav-list ul li .info::before {
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-color: #D4AF37;
-    border-style: solid;
-    visibility: hidden;
-    opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-color: #d4af37;
+  border-style: solid;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .nav-list ul li .info::after {
-    border-width: 2px 0;
-    width: 97%;
-    height: 95%;
-    transition: 0.6s;
-    transform: scale(0,1);
-    transform-origin: left;
+  border-width: 2px 0;
+  width: 97%;
+  height: 95%;
+  transition: 0.6s;
+  transform: scale(0, 1);
+  transform-origin: left;
 }
 
 .nav-list ul li .info:hover::after,
 .nav-list ul li .info:hover::before {
-    visibility: visible;
-    opacity: 1;
-    transform: scale(1,1);
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1, 1);
 }
 
 .nav-list ul li .info::before {
-    border-width: 0 2px;
-    width: 94%;
-    height: 100%;
-    transition: 0.3s;
-    transform: scale(1,0);
-    transform-origin: bottom;
+  border-width: 0 2px;
+  width: 94%;
+  height: 100%;
+  transition: 0.3s;
+  transform: scale(1, 0);
+  transform-origin: bottom;
 }
-/* ---------------- Drop-List ---------------- */
+
 .nav-list ul li:hover .dropdown {
-    visibility: visible;
-    opacity: 1;
-    transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .nav-list .dropdown .column a:hover {
-    color: #D4AF37;
-    transform: scale(1.05);
+  color: #d4af37;
+  transform: scale(1.05);
 }
-/* ---------------- /Drop-List ---------------- */
 
-/* ---------------- /Nav-List ---------------- */
-
-/* ---------------- Nav-Sale ---------------- */
 .sale span:hover {
-    letter-spacing: 2px;
-    transition: 0.3s;
+  letter-spacing: 2px;
+  transition: 0.3s;
 }
 
 @keyframes unspace {
-    0% {
-        letter-spacing: 2px;
-    }
+  0% {
+    letter-spacing: 2px;
+  }
 
-    50% {
-        letter-spacing: 1px;
-    }
+  50% {
+    letter-spacing: 1px;
+  }
 
-    100% {
-        letter-spacing: 0px;
-    }
+  100% {
+    letter-spacing: 0px;
+  }
 }
-/* ---------------- /Nav-Sale ---------------- */
 
-/*---------------- Hero-Section ---------------- */
 .hero-section button:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 1px solid #000000;
-    transition: 0.7s;
-    animation: popup;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  transition: 0.7s;
+  animation: popup;
 }
 
 @keyframes popup {
@@ -194,27 +187,20 @@
     transform: scale(1);
   }
 }
-/*---------------- /Hero-Section ---------------- */
 
-/*---------------- Product ---------------- */
 .product a:hover {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .type-product div:hover img {
-    transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 
-.type-product  div:hover .product {
-    transform: translateY(0px);
+.type-product div:hover .product {
+  transform: translateY(0px);
 }
 
-.type-product  div .product a:hover {
-    letter-spacing: 2px;
-    transition: 0.3s;
+.type-product div .product a:hover {
+  letter-spacing: 2px;
+  transition: 0.3s;
 }
-/*---------------- /Product ---------------- */
-
-/*---------------- Sub ---------------- */
-
-/*---------------- /Sub ---------------- */

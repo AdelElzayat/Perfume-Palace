@@ -35,7 +35,6 @@ button {
     margin: auto;
 }
 
-/*---------------- Navbar ---------------- */
 .nav-bar {
     width: 100%;
     height: fit-content;
@@ -44,7 +43,6 @@ button {
     font-family: 'Playfair Display', serif;
 }
 
-/*---------------- Info-List ---------------- */
 .info-list {
     width: 100%;
     height: 35px;
@@ -85,9 +83,6 @@ button {
     font-size: 16px;
 }
 
-/*---------------- /Info-List ---------------- */
-
-/* ---------------- Nav-List ---------------- */
 .nav-list {
     width: 100%;
     height: 90px;
@@ -102,7 +97,6 @@ button {
     flex-wrap: wrap;
 }
 
-/* ---------------- Drop-List ---------------- */
 .nav-list ul li {
     position: relative;
 }
@@ -160,8 +154,6 @@ button {
 .nav-list .dropdown .column a:hover {
     color: #D4AF37;
 }
-
-/* ---------------- /Drop-List ---------------- */
 
 .logo {
     width: 65px;
@@ -251,9 +243,6 @@ button {
     align-items: center;
 }
 
-/* ---------------- /Nav-List ---------------- */
-
-/* ---------------- Nav-Sale ---------------- */
 .sale {
     width: 100%;
     height: 35px;
@@ -283,10 +272,6 @@ button {
     transition: 0.3s;
 }
 
-/* ---------------- /Nav-Sale ---------------- */
-/*---------------- /Navbar ---------------- */
-
-/*---------------- Hero-Section ---------------- */
 .hero-section {
     width: 100%;
     height: 610px;
@@ -375,9 +360,6 @@ button {
     color: #fff;
 }
 
-/*---------------- /Hero-Section ---------------- */
-
-/*---------------- Product ---------------- */
 .type-product {
     display: flex;
     justify-content: space-between;
@@ -478,9 +460,7 @@ button {
         letter-spacing: 0px;
     }
 }
-/*---------------- /Product ---------------- */
 
-/*---------------- Sub ---------------- */
 .trend-area {
     margin-top: 60px;
     position: relative;
@@ -669,8 +649,6 @@ button {
     color: #D4AF37;
 }
 
-/*---------------- /Sub ---------------- */
-
 .customer {
     width: 100%;
     min-height: 400px;
@@ -760,7 +738,6 @@ button {
     object-fit: cover;
 }
 
-/* section four */
 .section-four {
     position: relative;
     bottom: 60px;
@@ -792,9 +769,7 @@ button {
 .product-trend img {
     object-fit: cover;
 }
-/* end of section four */
 
-/* section five */
 .news-section {
     width: 100%;
     padding: 60px 20px;
@@ -887,7 +862,6 @@ button {
     transform: scale(1.05);
     color: #D4AF37;
 }
-/* end of section five */
 
 .delivery {
     display: flex;
@@ -946,7 +920,6 @@ button {
     font-size: 14px;
 }
 
-/* Footer */
 .site-footer {
     width: 100%;
     background-color: #0f0f0f;
@@ -963,7 +936,6 @@ button {
     margin: 0 auto;
 }
 
-/* Newsletter Section */
 .footer-newsletter {
     display: flex;
     justify-content: space-between;
@@ -1042,7 +1014,6 @@ button {
     transform: scale(1.1);
 }
 
-/* Links Section */
 .footer-links {
     display: flex;
     justify-content: space-between;
@@ -1094,7 +1065,6 @@ button {
     transform: scaleX(1.05);
 }
 
-/* Bottom Section */
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
@@ -1133,7 +1103,6 @@ button {
     }
 }
 
-/* Responsive Media Queries */
 @media (max-width: 1200px) {
     .hero-section .dior {
         width: 30%;
