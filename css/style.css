@@ -529,7 +529,7 @@ button {
     width: 70px;
     position: relative;
     top: 42px;
-    left: 448px;
+    left: 426px;
     background: #D4AF37;
 }
 
@@ -578,11 +578,11 @@ button {
 }
 
 .trend-area .product-trend div .icon {
-    width: 60%;
+    width: 100%;
     height: 10%;
     display: flex;
     position: absolute;
-    left: 20%;
+    left: 0%;
     bottom: 30%;
     z-index: 10;
 }
